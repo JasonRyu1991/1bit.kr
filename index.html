@@ -10,63 +10,53 @@
 <helmet data-dc-atomics>
 <style>
   body{margin:0}
-  @keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
 </style>
 </helmet>
-<div style="min-height:100dvh;width:100%;background:oklch(97.5% 0.008 70);display:flex;align-items:flex-start;justify-content:center;padding:32px 16px 48px;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;overflow-y:auto">
-  <div style="width:100%;max-width:380px;background:oklch(99% 0.004 70);border:1px solid oklch(90% 0.012 70);border-radius:28px;box-shadow:0 20px 40px -20px oklch(45% 0.03 40 / 0.25);padding:40px 28px 32px;display:flex;flex-direction:column;align-items:center;text-align:center;animation:fadeUp .5s ease-out">
+<div style="min-height:100dvh;width:100%;background:linear-gradient(180deg,oklch(96.5% 0.01 60) 0%,oklch(97.5% 0.006 70) 40%);display:flex;align-items:flex-start;justify-content:center;padding:40px 16px 56px;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;overflow-y:auto">
+  <div style="width:100%;max-width:380px;background:#FFFFFF;border:1px solid oklch(91% 0.01 70);border-radius:32px;box-shadow:0 24px 48px -24px oklch(40% 0.03 40 / 0.28), 0 2px 6px oklch(40% 0.02 40 / 0.06);padding:44px 30px 34px;display:flex;flex-direction:column;align-items:center;text-align:center;animation:fadeUp .5s cubic-bezier(.2,.8,.2,1)">
 
-    <div style="width:96px;height:96px;border-radius:50%;padding:3px;background:{{ accentColor }};display:flex;align-items:center;justify-content:center;box-sizing:border-box;margin-bottom:20px;overflow:hidden">
-      <div style="width:100%;height:100%;border-radius:50%;overflow:hidden;background:oklch(94% 0.01 70);display:flex;align-items:center;justify-content:center;position:relative">
+    <div style="width:104px;height:104px;border-radius:50%;padding:3px;background:linear-gradient(135deg,#D97757,#C2703F);display:flex;align-items:center;justify-content:center;box-sizing:border-box;margin-bottom:22px;box-shadow:0 8px 20px -8px rgba(217,119,87,0.5)">
+      <div style="width:100%;height:100%;border-radius:50%;overflow:hidden;background:oklch(94% 0.01 70);display:flex;align-items:center;justify-content:center;position:relative;border:2.5px solid #FFFFFF">
         <img src="https://github.com/JasonRyu1991.png" alt="" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" style="width:100%;height:100%;object-fit:cover;display:block;position:absolute;inset:0" />
-        <span style="display:none;font-size:30px;font-weight:700;color:{{ accentColor }};letter-spacing:0.02em">JR</span>
+        <span style="display:none;font-size:32px;font-weight:700;color:#D97757;letter-spacing:0.02em">JR</span>
       </div>
     </div>
 
-    <h1 style="margin:0;font-size:26px;font-weight:700;color:oklch(24% 0.015 50);letter-spacing:-0.01em">유준형</h1>
-    <div style="margin-top:2px;font-size:14px;font-weight:500;color:oklch(52% 0.015 50);letter-spacing:0.02em">Jason Ryu</div>
+    <h1 style="margin:0;font-size:27px;font-weight:700;color:oklch(22% 0.015 50);letter-spacing:-0.01em;white-space:nowrap">유준형</h1>
+    <div style="margin-top:3px;font-size:14px;font-weight:500;color:oklch(52% 0.015 50);letter-spacing:0.03em;white-space:nowrap">JASON RYU</div>
 
-    <div style="margin-top:14px;padding:6px 14px;border-radius:999px;background:{{ accentSoftBg }};color:{{ accentColor }};font-size:13px;font-weight:600;letter-spacing:0.01em">
+    <div style="margin-top:16px;padding:7px 16px;border-radius:999px;background:oklch(93% 0.045 45);color:#B3552E;font-size:13px;font-weight:700;letter-spacing:0.01em;white-space:nowrap">
       Cloud Infrastructure Engineer
     </div>
 
-    <p style="margin:16px 0 0;font-size:14.5px;line-height:1.6;color:oklch(45% 0.012 50);max-width:280px">
+    <p style="margin:18px 0 0;font-size:14.5px;line-height:1.65;color:oklch(45% 0.012 50);max-width:270px">
       안정적인 클라우드 인프라를 설계하고 운영하는 것을 목표로 합니다.
     </p>
 
-    <div style="display:flex;gap:10px;margin-top:22px">
-      <a href="https://github.com/JasonRyu1991" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:6px;padding:8px 14px;border-radius:999px;border:1px solid oklch(88% 0.012 70);color:oklch(30% 0.015 50);text-decoration:none;font-size:13px;font-weight:600;transition:background .15s" style-hover="background:oklch(94% 0.01 70)">
+    <div style="display:flex;gap:10px;margin-top:24px">
+      <a href="https://github.com/JasonRyu1991" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:6px;padding:9px 16px;border-radius:999px;border:1px solid oklch(89% 0.012 70);color:oklch(28% 0.015 50);text-decoration:none;font-size:13px;font-weight:600;transition:background .15s,border-color .15s" style-hover="background:oklch(96% 0.03 45);border-color:#D97757">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21" /></svg>
         GitHub
       </a>
-      <a href="mailto:ujun5190@gmail.com" style="display:flex;align-items:center;gap:6px;padding:8px 14px;border-radius:999px;border:1px solid oklch(88% 0.012 70);color:oklch(30% 0.015 50);text-decoration:none;font-size:13px;font-weight:600;transition:background .15s" style-hover="background:oklch(94% 0.01 70)">
+      <a href="mailto:ujun5190@gmail.com" style="display:flex;align-items:center;gap:6px;padding:9px 16px;border-radius:999px;border:1px solid oklch(89% 0.012 70);color:oklch(28% 0.015 50);text-decoration:none;font-size:13px;font-weight:600;transition:background .15s,border-color .15s" style-hover="background:oklch(96% 0.03 45);border-color:#D97757">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m2 7 10 6 10-6"></path></svg>
         Email
       </a>
     </div>
 
-    <div style="width:100%;height:1px;background:oklch(91% 0.01 70);margin:26px 0 22px"></div>
+    <div style="width:100%;height:1px;background:linear-gradient(90deg,transparent,oklch(88% 0.01 70),transparent);margin:28px 0 24px"></div>
 
     <div style="width:100%;display:flex;flex-direction:column;gap:12px">
-      <a href="/profile" style="display:block;width:100%;box-sizing:border-box;padding:15px 0;border-radius:14px;background:{{ accentColor }};color:oklch(99% 0.004 70);text-decoration:none;font-size:15.5px;font-weight:700;letter-spacing:0.01em;transition:opacity .15s" style-hover="opacity:0.88">Profile</a>
-      <a href="/portfolio" style="display:block;width:100%;box-sizing:border-box;padding:15px 0;border-radius:14px;background:transparent;border:1.5px solid oklch(85% 0.012 70);color:oklch(28% 0.015 50);text-decoration:none;font-size:15.5px;font-weight:700;letter-spacing:0.01em;transition:background .15s" style-hover="background:oklch(95% 0.008 70)">Portfolio</a>
-      <a href="/contact" style="display:block;width:100%;box-sizing:border-box;padding:15px 0;border-radius:14px;background:transparent;border:1.5px solid oklch(85% 0.012 70);color:oklch(28% 0.015 50);text-decoration:none;font-size:15.5px;font-weight:700;letter-spacing:0.01em;transition:background .15s" style-hover="background:oklch(95% 0.008 70)">Contact</a>
+      <a href="/profile" style="display:flex;align-items:center;justify-content:center;width:100%;box-sizing:border-box;padding:16px 0;border-radius:16px;background:linear-gradient(135deg,#D97757,#C2703F);color:#FFFFFF;text-decoration:none;font-size:15.5px;font-weight:700;letter-spacing:0.01em;box-shadow:0 10px 20px -10px rgba(217,119,87,0.6);transition:transform .15s,box-shadow .15s" style-hover="transform:translateY(-1px);box-shadow:0 14px 24px -10px rgba(217,119,87,0.7)">Profile</a>
+      <a href="/portfolio" style="display:flex;align-items:center;justify-content:center;width:100%;box-sizing:border-box;padding:15px 0;border-radius:16px;background:oklch(97% 0.006 70);border:1.5px solid oklch(89% 0.012 70);color:oklch(26% 0.015 50);text-decoration:none;font-size:15.5px;font-weight:700;letter-spacing:0.01em;transition:background .15s,border-color .15s" style-hover="background:oklch(94% 0.03 45);border-color:#D97757">Portfolio</a>
+      <a href="/contact" style="display:flex;align-items:center;justify-content:center;width:100%;box-sizing:border-box;padding:15px 0;border-radius:16px;background:oklch(97% 0.006 70);border:1.5px solid oklch(89% 0.012 70);color:oklch(26% 0.015 50);text-decoration:none;font-size:15.5px;font-weight:700;letter-spacing:0.01em;transition:background .15s,border-color .15s" style-hover="background:oklch(94% 0.03 45);border-color:#D97757">Contact</a>
     </div>
 
   </div>
 </div>
 
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:420,&quot;height&quot;:760},&quot;accentColor&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#D97757&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;options&quot;:[&quot;#D97757&quot;,&quot;#C2703F&quot;,&quot;#B36A4A&quot;]}}">
-class Component extends DCLogic {
-  renderVals() {
-    const accentColor = this.props.accentColor ?? '#D97757';
-    return {
-      accentColor,
-      accentSoftBg: 'oklch(94% 0.03 45)'
-    };
-  }
-}
-</script>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:420,&quot;height&quot;:780}}"></script>
 </body>
 </html>
